@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class Main 
+{
+	public static void main(String[] args) 
+	{
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("Enter first String");
+		String string1 = input.nextLine();
+		
+		System.out.println("Enter second String");
+		String string2 = input.nextLine();
+		
+		System.out.println("String 1: "+string1);
+		System.out.println("String 2: "+string2);
+		
+		System.out.println("Concate String: "+string1+" "+string2 );
+	}
+}
